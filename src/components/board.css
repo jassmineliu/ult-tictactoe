@@ -1,0 +1,87 @@
+.page-holder {
+    display:flex;
+    gap:100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    height:100px;
+    width: 100px;
+    background-color: white;
+    border:none;
+    font-size: 40px;
+    font-weight: bold;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.border-bottom {
+    border-bottom: 4px black solid;
+}
+.border-right {
+    border-right: 4px black solid;
+}
+
+.board-holder {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.board-row {
+    margin:0px;
+    display: flex;
+}
+
+
+.strikethrough {
+    height:4px;
+    background-color:black;
+    position: absolute;
+}
+
+.strike-top {
+    width:275px;
+    top: 30%;
+}
+.strike-middle-r {
+    width:275px;
+    top:57%;
+}
+.strike-bottom {
+    width:275px;
+    top:85%l
+}
+.strike-middle-v {
+    width:275px;
+    transform: rotate(90deg);
+    top:60%
+}
+.strike-left {
+    width:275px;
+    transform: rotate(90deg);
+    top:60%;
+    right:37%;
+}
+.strike-right {
+    width:275px;
+    transform: rotate(90deg);
+    top:60%;
+    left:37%;
+}
+.strike-d-r {
+    transform: rotate(45deg);
+    top: 58%;
+    width:340px;
+}
+.strike-d-l {
+    transform: rotate(135deg);
+    top: 57%;
+    width:340px;
+}
+
+
+
